@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link href="https://fonts.googleapis.com/css?family=Hind:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<body>
+
+<nav class="w3-sidebar w3-bar-block w3-card" id="mySidebar">
+<div class="w3-container w3-theme-d2">
+  <span onclick="closeSidebar()" class="w3-button w3-display-topright w3-large">X</span>
+  <br>
+  <div class="w3-padding w3-center">
+    <img class="w3-circle" src="img_avatar.jpg" alt="avatar" style="width:75%">
+  </div>
+</div>
+<a class="w3-bar-item w3-button" href="#">Movies</a>
+<a class="w3-bar-item w3-button" href="#">Friends</a>
+<a class="w3-bar-item w3-button" href="#">Messages</a>
+</nav>
+
+<header class="w3-top w3-bar w3-theme">
+  <button class="w3-bar-item w3-button w3-xxxlarge w3-hover-theme" onclick="openSidebar()">&#9776;</button>
+  <h1 class="w3-bar-item">অনির্বাণ সঞ্চয় ও ঋণদান সমিতি</h1>
+</header>
+
+<div class="w3-container" style="margin-top:90px">
+  <div class="w3-cell-row">
+    <div class="profile_image">
+      <div class="w3-cell" style="width:15%">
+        <img class="w3-circle" src="image/avater.png" style="width:100%">
+      </div>
+      <div class="w3-cell w3-container">
+        <h3 class="mp_loss">পলাশ মাহমুদ</h3>
+        <p class="mp_loss">TK: 25846</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="main_content">
+    <div class="w3-row">
+      <div class="w3-col w3-container w3-blue w3-center" style="width: 50%; border-right: 1px solid #3333334a;">
+        <a href="" style="text-decoration: none;">
+          <div class="picture">
+            <img src="image/my_account.png" alt="" width="70%">
+            <p style="margin: 0; padding: 0;">আমার  একাউন্ট</p>
+          </div>
+        </a>
+      </div>
+      <div class="w3-col w3-container w3-red w3-center" style="width:50%">
+        <a href="" style="text-decoration: none;">
+          <div class="picture">
+            <img src="image/cash_in_hand.png" alt="" width="70%">
+            <p style="margin: 0; padding: 0;">হাতে আছে</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-row">
+      <div class="w3-col w3-container w3-blue w3-center" style="width: 50%; border-right: 1px solid #3333334a;">
+        <a href="" style="text-decoration: none;">
+          <div class="picture">
+            <img src="image/lone_ac.png" alt="" width="70%">
+            <p style="margin: 0; padding: 0;">ঋন একাউন্ট</p>
+          </div>
+        </a>
+      </div>
+      <div class="w3-col w3-container w3-red w3-center" style="width:50%">
+        <a href="" style="text-decoration: none;">
+          <div class="picture">
+            <img src="image/saving_ac.png" alt="" width="70%">
+            <p style="margin: 0; padding: 0;">সঞ্চয় একাউন্ট</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <hr>
+    <div class="w3-row">
+      <div class="w3-col w3-container w3-blue w3-center" style="width: 50%; border-right: 1px solid #3333334a;">
+        <a href="" style="text-decoration: none;">
+          <div class="picture">
+            <img src="image/fixed_ac.png" alt="" width="70%">
+            <p style="margin: 0; padding: 0;">ফিক্সড একাউন্ট</p>
+          </div>
+        </a>
+      </div>
+      <div class="w3-col w3-container w3-red w3-center" style="width:50%">
+        <a href="" style="text-decoration: none;">
+          <div class="picture">
+            <img src="image/bank.png" alt="" width="70%">
+            <p style="margin: 0; padding: 0;">মূল একাউন্ট </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+
+</div>
+
+<footer class="w3-container w3-bottom w3-theme w3-margin-top">
+  <h3>Footer</h3>
+</footer>
+
+<script>
+closeSidebar();
+function openSidebar() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function closeSidebar() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
